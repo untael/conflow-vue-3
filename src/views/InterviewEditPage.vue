@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <va-card>
 
-  </div>
+  </va-card>
 </template>
 
 <script lang="ts">

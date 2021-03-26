@@ -1,7 +1,19 @@
 <template>
-  <div>
+  <!--  <va-card style="width: 400px;">-->
+  <!--    <va-card-title>Title</va-card-title>-->
+  <!--    <va-card-content>-->
+  <va-input v-model="eventName" label="test" placeholder="Event name"/>
 
-  </div>
+  <!--  <va-card style="width: 400px; height: 200px;">-->
+  <!--    <va-card-title>Title</va-card-title>-->
+  <!--    <va-card-content/>-->
+  <!--  </va-card>-->
+
+  <!--  <va-button>-->
+  <!--    bajlkdsjflka-->
+  <!--  </va-button>-->
+  <!--    </va-card-content>-->
+  <!--  </va-card>-->
 </template>
 
 <script lang="ts">
@@ -17,6 +29,8 @@ export default class InterviewDisplayPage extends Vue {
       ...useInterview(),
     }
   })
+
+  eventName = ''
 
   async created () {
     this.setupData.interview = await this.setupData.getInterview(this.$route.params.id)

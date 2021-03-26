@@ -18,7 +18,7 @@
     "vue": "^3.0.7",
     "vue-class-component": "^8.0.0-rc.1",
     "vue-router": "^4.0.0-0",
-    "vuestic-ui": "1.0.0-alpha.13"
+    "vuestic-ui": "1.0.0-alpha.16"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.33.0",
