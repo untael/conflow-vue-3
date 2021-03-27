@@ -6,7 +6,7 @@ import router from './router'
 import { VuesticPlugin } from 'vuestic-ui'
 import 'vuestic-ui/dist/vuestic-ui.css'
 import 'reflect-metadata'
-import './overrides.scss'
+import './main.scss'
 
 const app = createApp(App)
 

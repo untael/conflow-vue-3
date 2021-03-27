@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 import InterviewControlPage from '@/views/InterviewControlPage.vue'
 import InterviewDisplayPage from '@/views/InterviewDisplayPage.vue'
+import InterviewEditPage from '@/views/InterviewEditPage.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -14,8 +15,8 @@ const routes: Array<RouteRecordRaw> = [
       },
       {
         name: 'Interview Edit',
-        path: '/edit',
-        component: InterviewControlPage,
+        path: 'edit',
+        component: InterviewEditPage,
       },
     ],
   },

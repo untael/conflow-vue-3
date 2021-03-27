@@ -1,15 +1,18 @@
 <template>
-  <va-card>
-
-  </va-card>
+  <div>
+    <interview-edit-form/>
+  </div>
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
-import { Options } from 'vue-class-component'
+import { Vue, Options } from 'vue-class-component'
+import InterviewEditForm from '../components/InterviewEditForm.vue'
 
 @Options({
   name: 'InterviewEditPage',
+  components: {
+    InterviewEditForm,
+  },
 })
 export default class InterviewEditPage extends Vue {
   setup () {
