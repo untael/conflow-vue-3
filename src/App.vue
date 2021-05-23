@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <header class="p-test">
-test
+      test
     </header>
     <main>
       <router-view/>

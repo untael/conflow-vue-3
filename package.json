@@ -17,7 +17,7 @@
     "vue": "^3.0.7",
     "vue-class-component": "^8.0.0-rc.1",
     "vue-router": "^4.0.0-0",
-    "vuestic-ui": "1.0.0-alpha.16"
+    "vuestic-ui": "*"
   },
   "devDependencies": {
     "@tailwindcss/postcss7-compat": "^2.0.4",
@@ -40,7 +40,8 @@
     "sass": "^1.26.5",
     "sass-loader": "^8.0.2",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat",
-    "typescript": "~3.9.3"
+    "typescript": "~3.9.3",
+    "vue-cli-plugin-vuestic-ui": "~1.0.0-alpha.2"
   },
   "gitHooks": {
     "pre-commit": "lint-staged"

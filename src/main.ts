@@ -2,7 +2,6 @@ import { createApp, inject } from 'vue'
 import App from './App.vue'
 import './registerServiceWorker'
 import router from './router'
-//@ts-ignore
 import { VuesticPlugin } from 'vuestic-ui'
 import 'vuestic-ui/dist/vuestic-ui.css'
 import 'reflect-metadata'
