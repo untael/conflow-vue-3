@@ -1,30 +1,33 @@
 <template>
-  <div id="app">
-    <header class="p-test">
-      test
-    </header>
+  <div id="app" class="bg-gray-300 h-screen">
+
+    <cf-header>
+
+    </cf-header>
     <main>
       <router-view/>
     </main>
-    <footer>
+    <cf-footer class="">
 
-    </footer>
+    </cf-footer>
   </div>
 </template>
 
 <script lang="ts">
-import { Options, Vue } from 'vue-class-component'
+import CfFooter from '@/components/layout/CfFooter.vue'
+import CfHeader from '@/components/layout/CfHeader.vue'
+import { ref } from 'vue'
 
-@Options({
-  name: 'App',
-})
-export default class App extends Vue {
+export default {
+  components: {
+    CfFooter, CfHeader,
+  },
   setup () {
-    return {}
-  }
+    const visible = ref(true)
+    return {
+      visible
+    }
+  },
 
-  value = ''
 }
 </script>
-
-

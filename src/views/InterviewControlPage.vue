@@ -3,16 +3,13 @@
 </template>
 
 <script lang="ts">
-import { Vue, Options } from 'vue-class-component'
-
-@Options({
+export default {
   name: 'InterviewControlPage',
-})
-export default class InterviewControlPage extends Vue {
   setup () {
     return {}
-  }
+  },
 }
 </script>
+
 
 
