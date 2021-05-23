@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="sm:container mx-auto p-4 flex flex-col">
     <interview-edit-form/>
   </div>
 </template>

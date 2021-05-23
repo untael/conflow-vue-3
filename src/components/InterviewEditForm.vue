@@ -1,21 +1,20 @@
 <template>
-  <va-card>
-    <va-input v-model="value"/>
+  <va-card class="p-2">
+    <va-card-title>Edit interview</va-card-title>
+    <va-card-content>
+      <va-input label="Interview name" v-model="value"/>
+    </va-card-content>
   </va-card>
 </template>
 
 <script lang="ts">
-import { ref } from 'vue'
 import { Options, Vue } from 'vue-class-component'
 
 @Options({
   name: 'InterviewEditForm',
 })
 export default class InterviewEditForm extends Vue {
-  setup () {
-    const value = ref('')
-    return { value }
-  }
+  value = ''
 }
 </script>
 
